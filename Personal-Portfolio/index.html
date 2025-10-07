@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal-Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+   <header>
+    <nav>
+        <div class="left">Personal-Portfolio</div>
+        <div class="right">
+            <ul>
+                <a href=""><li>Home</li></a>
+                <a href=""><li>About</li></a>
+                <a href=""><li>Service</li></a>
+                <a href=""><li>Projects</li></a>
+                <a href=""><li>Contact me </li></a>
+            </ul>
+        </div>
+    </nav>
+   </header>
+
+   <main>
+    <section class="firstSection">
+            <div class="leftsection">
+              Hey there! I’m <span class="name"> Paras Rawat</span>,<div> I am a Web Developer who enjoys learning and exploring new technologies to build better, faster, and smarter web solutions.</div>
+
+              <!-- Hi My name is <span class="name">Paras Rawat</span>
+              <div> and i am a passinate</div>
+              <div> Web Developer</div> -->
+              <span  id="element"></span>
+               
+            </div>
+            <div class="rightsection">
+                <img src="web.png" alt="">
+            </div>
+    </section>
+
+    <hr>
+    <section>
+      <div class="secondsection">
+        <span>what i have done </span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+        </div>
+        
+      </div>
+    </section>
+   </main>
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script>
+    // var typed = new Typed('#element', {
+    //   strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+    //   typeSpeed: 50,
+    // });
+
+  var typed = new Typed('#element', {
+  strings: [
+    "Frontend Developer",
+    "Web Designer",
+    "Tech Explorer"
+  ],
+  typeSpeed: 70,
+  backSpeed: 50,
+  loop: true
+});
+  </script>
+
+   
+</body>
+</html>
