@@ -1,15 +1,13 @@
 # 💼 Personal Portfolio Website
 
 A fully responsive **personal portfolio website** built using **HTML, CSS, and JavaScript**.  
-It highlights my projects, technical skills, and experience as a frontend developer — with smooth design, interactivity, and clean code.
+It highlights my projects, technical skills, and experience as a frontend developer — with smooth design, interactivity, and clean code
 
----
 
-## 🚀 Live Demo
-🔗 [live demo here](my-portfolio-site-5sjw6zyqn-paras941s-projects.vercel.app/)  
----
+#🚀 Live Demo
+ [live demo here](my-portfolio-site-5sjw6zyqn-paras941s-projects.vercel.app/)  
 
-## 🧠 About the Project
+# 🧠 About the Project
 
 This portfolio is designed to showcase:
 - **My Projects** — cleanly displayed cards with links to live demos and GitHub repos.  
@@ -18,9 +16,7 @@ This portfolio is designed to showcase:
 - **Animated Header Text** — powered by `Typed.js` for a dynamic introduction.  
 - **Modern UI/UX** — dark theme, consistent typography, and subtle hover animations.
 
----
-
-## 🧩 Tech Stack
+# 🧩 Tech Stack
 
 | Technology | Purpose |
 |-------------|----------|
@@ -30,9 +26,7 @@ This portfolio is designed to showcase:
 | **Typed.js** | Typing animation in hero section |
 | **Google Fonts (Poppins)** | Clean and professional typography |
 
----
-
-## 🧱 Folder Structure
+# 🧱 Folder Structure
 / (root)
 │
 ├── index.html # Main HTML file
