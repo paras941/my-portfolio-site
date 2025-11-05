@@ -6,9 +6,7 @@ It highlights my projects, technical skills, and experience as a frontend develo
 ---
 
 ## 🚀 Live Demo
-🔗 [View Portfolio](https://paras941.github.io/your-repo-name/)  
-*(Replace with your actual deployment link once live)*
-
+🔗 [live demo here](my-portfolio-site-5sjw6zyqn-paras941s-projects.vercel.app/)  
 ---
 
 ## 🧠 About the Project
