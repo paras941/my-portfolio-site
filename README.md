@@ -4,8 +4,8 @@ A fully responsive **personal portfolio website** built using **HTML, CSS, and J
 It highlights my projects, technical skills, and experience as a frontend developer — with smooth design, interactivity, and clean code
 
 
-#🚀 Live Demo
- [live demo here](my-portfolio-site-5sjw6zyqn-paras941s-projects.vercel.app/)  
+#🚀 Live Demo: 
+ [live demo here](https://my-portfolio-site-9y3tsubmc-paras941s-projects.vercel.app)
 
 # 🧠 About the Project
 
