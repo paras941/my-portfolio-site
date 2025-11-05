@@ -1,152 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal-Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-   <header>
-    <nav>
-        <div class="left">Personal-Portfolio</div>
-        <div class="right">
-            <ul>
-                <a href=""><li>Home</li></a>
-                <a href=""><li>About</li></a>
-                <a href=""><li>Service</li></a>
-                <a href=""><li>Projects</li></a>
-                <a href=""><li>Contact me </li></a>
-            </ul>
-        </div>
-    </nav>
-   </header>
+    <header>
+        <nav>
+            <div class="left">Personal-Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Experience</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-   <main>
-    <section class="firstSection">
+    <main>
+        <section class="firstSection" id="home">
             <div class="leftsection">
-              Hey there! I’m <span class="name"> Paras Rawat</span>,<div> I am a Web Developer who enjoys learning and exploring new technologies to build better, faster, and smarter web solutions.</div>
-
-              <!-- Hi My name is <span class="name">Paras Rawat</span>
-              <div> and i am a passinate</div>
-              <div> Web Developer</div> -->
-              <span  id="element"></span>
-               
+                <h1>Hey there! I’m <span class="name">Paras Rawat</span></h1>
+                <p>I am a Web Developer driven by a deep passion for continuous learning. I thrive on exploring new technologies and methodologies, always seeking to build web solutions that are not only functional but also significantly faster, more efficient, and smarter. My goal is to translate complex challenges into elegant, high-performing, and user-centric digital experiences.</p>
+                <span id="element"></span>
             </div>
             <div class="rightsection">
-                <img src="web.png" alt="">
+                <img src="web.png" alt="Illustration of web development">
             </div>
-    </section>
+        </section>
 
-    <hr>
-    <section>
-      <div class="secondsection">
-        <span>
-        <span class="center ">what i have done</span>
-        <span class="center2"> <h1>Work Experience</h1> </span>
-      
-        <div class="line"></div>
-        <div class="box">
-          <div class="vertical">
-            <img class="dev-image" src="dev.jpg" alt="">
-            <div class="dev-head" style="color: white;">
-                 HTML-DEVELOPER
-            </div>
-            <div class="dev-desc">
-             <span>I design and structure web pages using clean, semantic HTML to ensure accessibility, performance, and easy maintenance.I create and style web pages using HTML and CSS, turning ideas into  visually appealing designs while learning best coding practices. </span>
-            </div>
-          </div>
-          <div class="vertical">
-            <img class="dev-image" src="dev.jpg" alt="">
-            <div class="dev-head " style="color: white;">
-               JavaScript-Knowlegde
-            </div>
-            <div class="dev-desc">
-             <span>I use JavaScript to add interactivity and dynamic features to web pages, making them more engaging and user-friendly.Skilled in DOM manipulation, event handling, and creating smooth, responsive interfaces with clean JavaScript code. </span>
-            </div>
-          </div>
-          <div class="vertical">
-            <img class="dev-image" src="dev.jpg" alt="">
-            <div class="dev-head" style="color: white;">
-              Programming-Language
-            </div>
-            <div class="dev-desc">
-              <span> I write clean and efficient code in programming languages like C and C++ solving problems and building logical solutions. Skilled in multiple programming languages, I develop algorithms, data structures, and functional programs that power web and software applications. </span>
-            </div>
-          </div>
-          <div class="vertical">
-            <img class="dev-image" src="dev.jpg" alt="">
-            <div class="dev-head " style="color: white;">
-               DSA-KNOWLEDGE
-            </div>
-            <div class="dev-desc">
-             <span> I have a solid understanding of data structures and algorithms, enabling me to write efficient and optimized code for problem-solving.Skilled in designing and implementing algorithms and data structures to solve complex programming challenges efficiently.</span>
-            </div>
+        <div class="separator"></div>
 
+        <section class="project-section" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">My Work</p>
+                <h2>Recent Projects</h2>
+            </div>
             
-          </div>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="leetcode.png" alt="Screenshot of LeetMetric project" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">LeetMetric</h3>
+                        <p class="project-desc">A web-based tool to display LeetCode user statistics and visualize progress. Built with HTML, CSS, and JavaScript (Fetch API).</p>
+                        <div class="project-links">
+                            <a href="https://paras941.github.io/leetcode-matrix-app/" class="project-btn">Live Demo </a> 
+                            <a href="https://github.com/paras941" class="project-btn">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="stopwatch.png" alt="Stopwatch project" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">JavaScript Stopwatch</h3>
+                        <p class="project-desc">A sleek and responsive stopwatch application with lap functionality, created using vanilla JavaScript, HTML, and CSS.</p>
+                        <div class="project-links">
+                            <a href="https://paras941.github.io/vanilla-js-stopwatch/" class="project-btn">Live Demo</a>
+                            <a href="https://github.com/paras941" class="project-btn">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="separator"></div>
+
+        <section class="secondsection" id="services">
+            <div class="section-heading">
+                <p class="eyebrow">What I have done</p>
+                <h2>Work Experience</h2>
+            </div>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="dev-image" src="dev.jpg" alt="HTML icon">
+                    <h3 class="dev-head">HTML-DEVELOPER</h3>
+                    <p class="dev-desc">
+                        I design and structure web pages using clean, semantic HTML to ensure accessibility, performance, and easy maintenance. I create and style web pages, turning ideas into visually appealing designs.
+                    </p>
+                </div>
+                <div class="vertical">
+                    <img class="dev-image" src="dev.jpg" alt="JavaScript icon">
+                    <h3 class="dev-head">JavaScript-Knowledge</h3>
+                    <p class="dev-desc">
+                        I use JavaScript to add interactivity and dynamic features to web pages. Skilled in DOM manipulation, event handling, and creating smooth, responsive interfaces with clean JavaScript code.
+                    </p>
+                </div>
+                <div class="vertical">
+                    <img class="dev-image" src="dev.jpg" alt="Code icon">
+                    <h3 class="dev-head">Programming-Language</h3>
+                    <p class="dev-desc">
+                        I write clean and efficient code in languages like C and C++ to solve problems. Skilled in multiple languages, I develop algorithms and data structures that power applications.
+                    </p>
+                </div>
+                <div class="vertical">
+                    <img class="dev-image" src="dev.jpg" alt="Data structure icon">
+                    <h3 class="dev-head">DSA-KNOWLEDGE</h3>
+                    <p class="dev-desc">
+                        I have a solid understanding of data structures and algorithms, enabling me to write efficient and optimized code for complex problem-solving and programming challenges.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="separator"></div>
+
+        <section class="contact-section" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow">Get In Touch</p>
+                <h2>Contact Me</h2>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="flex">
+            <div class="footer-title">
+                <p>Paras's Developer Portfolio</p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#services">Service</a></li>
+                </ul>
+            </div>
         </div>
-        
-      </div>
-    </section>
-   </main>
+        <p class="copyright">copyright &copy; parasportfolio.com | All right reserved</p>
+    </footer>
 
-   <footer>
-          <div class="flex">
-           <p>Paras's Developer Portfolio </p>
-           <div class="items"></div>
-            <div class="footer-first">
-            <ul>
-              <a href=""> <li>Home</li></a>
-             <a href=""> <li>contact</li>  </a>
-             <a href=""> <li>Service</li> </a>
-             <a href=""> <li>About</li> </a>
-            </ul>
-            </div>
-            <div class="footer-second">
-               <ul>
-              <a href=""> <li>Home</li></a>
-             <a href=""> <li>contact</li>  </a>
-             <a href=""> <li>Service</li> </a>
-             <a href=""> <li>About</li> </a>
-            </ul>
-            </div>
-            <div class="footer-third">
-               <ul>
-             <a href=""> <li>Home</li></a>
-             <a href=""> <li>contact</li>  </a>
-             <a href=""> <li>Service</li> </a>
-             <a href=""> <li>About</li> </a>
-            </ul>
-            </div>
-          </div>
-
-          <div class="copyright">copyright parasportfolio.com|All right reserved</div>
-   </footer>
-
-
-
-   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-     <script>
-    // var typed = new Typed('#element', {
-    //   strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
-    //   typeSpeed: 50,
-    // });
-
-  var typed = new Typed('#element', {
-  strings: [
-    "Frontend Developer",
-    "Web Designer",
-    "Tech Explorer"
-  ],
-  typeSpeed: 70,
-  backSpeed: 50,
-  loop: true
-});
-  </script>
-
-   
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [
+                "Frontend Developer",
+                "Web Designer",
+                "Tech Explorer"
+            ],
+            typeSpeed: 70,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
 </body>
 </html>
